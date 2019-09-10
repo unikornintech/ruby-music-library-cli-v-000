@@ -45,6 +45,6 @@ class MusicLibraryController
     
     input = gets.strip
     
-    puts 
+    puts "1. Green Aisles - country"
   end 
 end 
