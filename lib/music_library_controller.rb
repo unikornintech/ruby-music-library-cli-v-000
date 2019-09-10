@@ -71,5 +71,6 @@ class MusicLibraryController
     if (1..x).include?(input)
       song = Song.all.sort_by(&:name)[input-1]
         puts "Playing #{song.name} by #{song.artist.name}"
+      end
   end
 end 
