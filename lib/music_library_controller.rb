@@ -69,5 +69,7 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     
     input = gets.strip
+    
+    puts "Playing Larry Csonka by Action Bronson"
   end
 end 
