@@ -33,4 +33,8 @@ class MusicLibraryController
       puts "#{index}. #{artist.name}"
     end
   end
+  
+  def list_genres
+    
+  end
 end 
